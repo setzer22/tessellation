@@ -54,6 +54,8 @@ mod vertex_index;
 pub use self::manifold_dual_contouring::ManifoldDualContouring;
 pub use self::mesh::Mesh;
 
+pub use nalgebra;
+
 /// A Combination of alga::general::RealField and na::RealField.
 pub trait RealField: alga::general::RealField + na::RealField {}
 impl RealField for f64 {}
